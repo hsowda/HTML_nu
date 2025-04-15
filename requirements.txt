@@ -1,0 +1,20 @@
+# Django framework
+Django==4.2.7
+
+# Database adapters
+psycopg2-binary==2.9.9  # PostgreSQL adapter
+python-dotenv==1.0.0    # For environment variables
+
+# Web server
+gunicorn==21.2.0        # Production web server
+
+# Security
+django-cors-headers==4.3.0
+
+# Azure specific
+azure-identity==1.13.0  # For Azure AD authentication
+azure-storage-blob==12.17.0  # If you use Azure Storage
+
+# Utilities
+requests==2.31.0
+whitenoise==6.5.0  # For serving static files
